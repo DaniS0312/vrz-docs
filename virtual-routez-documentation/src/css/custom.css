@@ -1,0 +1,64 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #e09a5f;
+  --ifm-color-primary-dark: #db8944;
+  --ifm-color-primary-darker: #d88137;
+  --ifm-color-primary-darkest: #bb6924;
+  --ifm-color-primary-light: #e5ab7a;
+  --ifm-color-primary-lighter: #e8b387;
+  --ifm-color-primary-lightest: #f0cdaf;
+
+  --ifm-color-secondary: #6b82a7;
+  --ifm-color-secondary-dark: #5c749b;
+  --ifm-color-secondary-darker: #576e92;
+  --ifm-color-secondary-darkest: #485a78;
+  --ifm-color-secondary-light: #7c91b1;
+  --ifm-color-secondary-lighter: #8598b6;
+  --ifm-color-secondary-lightest: #9faec6;
+
+  --ifm-color-success: #88cbc3;
+  --ifm-color-success-dark: #70c1b7;
+  --ifm-color-success-darker: #65bcb1;
+  --ifm-color-success-darkest: #48a59a;
+  --ifm-color-success-light: #a0d5cf;
+  --ifm-color-success-lighter: #abdad5;
+  --ifm-color-success-lightest: #cfeae7;
+
+  --ifm-color-info: #a0abb8;
+  --ifm-color-info-dark: #8c9aa9;
+  --ifm-color-info-darker: #8291a2;
+  --ifm-color-info-darkest: #67778a;
+  --ifm-color-info-light: #b4bcc7;
+  --ifm-color-info-lighter: #bec5ce;
+  --ifm-color-info-lightest: #dbdfe4;
+
+  --ifm-color-warning: #6f7376;
+  --ifm-color-warning-dark: #64676a;
+  --ifm-color-warning-darker: #5e6264;
+  --ifm-color-warning-darkest: #4e5153;
+  --ifm-color-warning-light: #7a7f82;
+  --ifm-color-warning-lighter: #808487;
+  --ifm-color-warning-lightest: #929598;
+
+  --ifm-color-danger: #d35b6a;
+  --ifm-color-danger-dark: #cd4354;
+  --ifm-color-danger-darker: #c9374a;
+  --ifm-color-danger-darkest: #a72d3c;
+  --ifm-color-danger-light: #d97380;
+  --ifm-color-danger-lighter: #dd7f8a;
+  --ifm-color-danger-lightest: #e6a2ab;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
